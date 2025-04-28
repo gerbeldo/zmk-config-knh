@@ -38,5 +38,5 @@
 #include "L1_qwerty.dtsi"
 
 // Other layers
-//#include "L2.dtsi"
-//#include "Fn.dtsi"
+#include "L2.dtsi"
+#include "Fn.dtsi"
