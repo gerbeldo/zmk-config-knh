@@ -1,5 +1,6 @@
 #define CONFIG_WIRELESS
 
+#include "key-names/anywhy_flake.h"
 #include "../knucklehead/base.dtsi"
 
 / { chosen { zmk,physical-layout = &medium_layout; }; };
