@@ -29,7 +29,7 @@
 
 #include "behaviors.dtsi"
 #include "macros.dtsi"
-//#include "combos.dtsi"
+#include "combos.dtsi"
 
 // Alpha layer: uncomment desired, comment the others
 //#include "L1_colemak-dh.dtsi"
