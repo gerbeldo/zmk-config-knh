@@ -1,0 +1,5 @@
+#define CONFIG_WIRELESS
+
+#include "../knucklehead/base.dtsi"
+
+/ { chosen { zmk,physical-layout = &medium_layout; }; };
