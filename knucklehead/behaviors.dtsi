@@ -121,13 +121,16 @@
     - hold: momentary layer
     - shift + tap: delete
     - shift + hold: momentary layer
+
+      binding-cells = <2> <2> means two params are passed, this is because &mo requires two params.
+      I'll pass a dummy one, because I don't use the second one
     */
     /omit-if-no-ref/ bspc_del_mo: bspc_del_mo {
       compatible = "zmk,behavior-hold-tap";
       flavor = "balanced";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&mo>, <&bkspc_del>;
-      #binding-cells = <1>; // <1> means one parameter is passed in the keymap
+      #binding-cells = <2>;
     };
 
     /*
