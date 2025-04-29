@@ -115,6 +115,21 @@
       #binding-cells = <0>;
     };
 
+
+    /*
+    - tap: backspace
+    - hold: momentary layer
+    - shift + tap: delete
+    - shift + hold: momentary layer
+    */
+    /omit-if-no-ref/ bspc_del_mo: bspc_del_mo {
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&mo>, <&bkspc_del>;
+      #binding-cells = <1>; // <1> means one parameter is passed in the keymap
+    };
+
     /*
     - tap: reset keyboard
     - hold: enter bootloader mode
