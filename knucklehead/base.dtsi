@@ -19,7 +19,7 @@
 #define LH                     LEFT_HYPER
 
 // Behaviors Constants
-#define TAPPING_TERM_MS 280
+#define TAPPING_TERM_MS 200
 #define QUICK_TAP_MS 175
 #define REQUIRE_PRIOR_IDLE_MS 150
 
@@ -31,10 +31,7 @@
 #include "macros.dtsi"
 #include "combos.dtsi"
 
-// Alpha layer: uncomment desired, comment the others
-//#include "L1_colemak-dh.dtsi"
-// #include "L1_colemak.dtsi"
-// #include "L1_dvorak.dtsi"
+// Alpha layer
 #include "L1_qwerty.dtsi"
 
 // Other layers
