@@ -14,7 +14,7 @@
     &kp ESC         &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &kp K_CANCEL
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 // │12             │13             │14             │15             │16             │17             │   │18             │19             │20             │21             │22             │23             │
-    &bkspc_del      &hrml LCTRL A   &hrml LALT S    &hrml LCMD D    &hrml LSHFT F   &hrml LH G          &hrmr LH H      &hrmr LSHFT J   &hrmr LCMD K    &hrmr LALT L    &hrmr LCTRL SQT &kp SEMICOLON
+    &bkspc_del      &hrml LCTRL A   &hrml LALT S    &hrml LCMD D    &hrml LSHFT F   &hrml LH G          &hrmr LH H      &hrmr LSHFT J   &hrmr LCMD K    &hrmr LALT L    &hrmr LCTRL SEMI &kp SQT
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 // │24             │25             │26             │27             │28             │29             │   │30             │31             │32             │33             │34             │35             │
     &csl Fn         &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp SLASH       &csl Fn
